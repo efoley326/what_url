@@ -1,11 +1,11 @@
 <%= yield %>
 <%= image_tag "whatever_logo.png" %>
-<form action="" method="post">
+<form action="/url_data" id="new_url_data" method="post">
   <div id="input-content">
     <label for="url-input-box">original link:</label>
-    <input type="text" id="url-input-text" name="longurl" value="example: http://www.url.whatever.com">
+    <input type="url" id="url-input-text" name="url_data[original_url]" value="example: http://www.url.whatever.com">
     <label for="custom-text">your custom text:</label>
-    <input type="text" id="url-input-custom" name="custom-url-text" value="example: EmilysCuratedContent">
+    <input type="text" id="url-input-custom" name="url_data[custom_text]" value="example: EmilysCuratedContent">
   </div>
   <div>
     <button type="submit" href="/">Create Your Link</button>
