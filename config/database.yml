@@ -17,9 +17,9 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  database: <%= ENV.fetch("WHAT_URL_DATABASE_NAME") %>
-  username: <%= ENV.fetch("WHAT_URL_DATABASE_USER") %>
-  password: <%= ENV.fetch("WHAT_URL_DATABASE_PASSWORD") %>
+  database: <%= ENV["WHAT_URL_DATABASE_NAME"] %>
+  username: <%= ENV["WHAT_URL_DATABASE_USER"] %>
+  password: <%= ENV["WHAT_URL_DATABASE_PASSWORD"] %>
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
