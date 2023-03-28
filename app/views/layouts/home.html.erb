@@ -1,9 +1,11 @@
+<%= yield %>
+<%= image_tag "whatever_logo.png" %>
 <form action="" method="post">
   <div id="input-content">
     <label for="url-input-box">original link:</label>
-    <input type="text" id="url-input-text" name="longurl" placeholder="example: http://www.url.whatever.com" value="{{ long_url }}">
+    <input type="text" id="url-input-text" name="longurl" value="example: http://www.url.whatever.com">
     <label for="custom-text">your custom text:</label>
-    <input type="text" id="url-input-custom" name="custom-url-text" placeholder="example: EmilysCuratedContent" value="{{ custom_text }}">
+    <input type="text" id="url-input-custom" name="custom-url-text" value="example: EmilysCuratedContent">
   </div>
   <div>
     <button type="submit" href="/">Create Your Link</button>

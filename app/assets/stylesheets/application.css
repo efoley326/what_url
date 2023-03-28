@@ -5,14 +5,17 @@ body {
     align-items: center;
     justify-content: center;
     background-color: white;
-    background-image: url("whatever_logo.png");
-    background-repeat: no-repeat;
-    background-position: 30% 25%;
-    opacity: 95%;
+    opacity: 75%;
+    margin-top: 8%;
+    margin-left: 20%;
+}
+img {
+  opacity: 100%;
+  margin-left: -60%;
 }
 form {
     width: 45%;
-    height: 45%;
+    height: 35%;
     background-color: white;
     font-family: "Helvetica", sans-serif;
     font-weight: 400;
@@ -22,9 +25,10 @@ form {
     border-color: #09222e;
     border-style: outset;
     border-spacing: 20px;
-    border-width: 50%;
-    margin-top: 25%;
-    margin-left: 6%;
+    border-width: 80%;
+    margin-top: -4%;
+    margin-left: -30%;
+    padding: 1%;
 }
 div#input-content {
     display: flex;
@@ -34,13 +38,13 @@ div#input-content {
     flex-shrink: inherit;
     align-items: right;
     justify-content: center;
-    padding: 20px;
+    padding: 23px;
 }
 input {
     border-radius: 5px;
     border-color: #003130;
     padding: 1%;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 label {
     margin-top: 10px;
