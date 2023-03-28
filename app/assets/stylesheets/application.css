@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-image: url("whatever_logo.png");
+    background-repeat: no-repeat;
+    background-position: 30% 25%;
+    opacity: 95%;
+}
+form {
+    width: 45%;
+    height: 45%;
+    background-color: white;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    color: #09222e;
+    border-radius: 10px;
+    border-color: #09222e;
+    border-style: outset;
+    border-spacing: 20px;
+    border-width: 50%;
+    margin-top: 25%;
+    margin-left: 6%;
+}
+div#input-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    align-items: right;
+    justify-content: center;
+    padding: 20px;
+}
+input {
+    border-radius: 5px;
+    border-color: #003130;
+    padding: 1%;
+    margin-top: 1%;
+}
+label {
+    margin-top: 10px;
+}
+button {
+    color: ivory;
+    background-color: darkgreen;
+    border-style: groove;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: green;
+    margin-top: 1%;
+    margin-left: 65%;
+    margin-bottom: 6%;
+    padding: 2%;
+}
+button:hover {
+    opacity: 30%;
+    text-emphasis-style: bold;
+
+}
+button:active {
+    text-decoration-color: greenyellow;
+    border-color: greenyellow;
+    border-style: dashed;
+}
+button:after {
+    opacity: 30%;
+    border-style: dashed;
+}
